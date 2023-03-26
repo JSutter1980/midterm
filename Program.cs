@@ -4,9 +4,6 @@ string path = Directory.GetCurrentDirectory() + "\\nlog.config";
 
 string choice;
 
-
-
-
 List<Ticket> ticketList = new List<Ticket>();
 
 do
@@ -104,5 +101,3 @@ do
         }
     }
 } while (choice == "1" || choice == "2");
-
-//logger.Info("Program ended");
